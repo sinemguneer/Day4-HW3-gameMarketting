@@ -17,7 +17,7 @@ public class Main {
 		
 		
 		PlayerManager playerManager = new PlayerManager(new MernisServiceAdapter());
-		Player player = new Player(1,"Sinem","Güner",LocalDate.of(1995,10,12),"57262211040");
+		Player player = new Player(1,"Sinem","Güner",LocalDate.of(1995,10,12),"11111111111");
 		playerManager.addPlayer(player);
 		playerManager.removePlayer(player);
 		Player student = new StudentPlayer();
@@ -32,7 +32,7 @@ public class Main {
 		GameManager gameManager = new GameManager();
 		Game game1 = new Game(11,"Tetris","Standart",90);
 		Game game2 = new Game(22,"Snake","Advence",60);
-		Game game3 = new Game(33,"Cs Go","Standart",200);
+		Game game3 = new Game(33,"Xx","Standart",200);
 		Game [] games = {game1, game2, game3};
 		gameManager.multiAdd(games);
 		
